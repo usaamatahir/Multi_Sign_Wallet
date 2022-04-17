@@ -21,5 +21,6 @@ module.exports = {
       { ignores: ["modules"] },
     ],
     "node/no-missing-import": "off",
+    "prettier/prettier": "off",
   },
 };
