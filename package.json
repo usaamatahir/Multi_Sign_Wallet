@@ -1,11 +1,17 @@
 {
-  "name": "Multi_Sign_Wallet",
+  "name": "multi_sign_wallet",
   "version": "1.0.0",
   "description": "Multi Sign Wallet which execute transaction after multiple approvals",
   "main": "index.js",
   "author": "Usama Tahir",
   "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "devDependencies": {
+    "@types/react": "^18.0.6",
     "hardhat": "^2.9.3"
   },
   "dependencies": {
@@ -18,8 +24,8 @@
     "@types/chai": "^4.2.21",
     "@types/mocha": "^9.0.0",
     "@types/node": "^12.0.0",
-    "@typescript-eslint/eslint-plugin": "^4.29.1",
-    "@typescript-eslint/parser": "^4.29.1",
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/parser": "^4.0.1",
     "chai": "^4.2.0",
     "dotenv": "^10.0.0",
     "eslint": "^7.29.0",
@@ -32,8 +38,11 @@
     "ethereum-waffle": "^3.0.0",
     "ethers": "^5.0.0",
     "hardhat-gas-reporter": "^1.0.4",
+    "next": "^12.1.5",
     "prettier": "^2.3.2",
     "prettier-plugin-solidity": "^1.0.0-beta.13",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "solhint": "^3.3.6",
     "solidity-coverage": "^0.7.16",
     "ts-node": "^10.1.0",
